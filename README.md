@@ -1,5 +1,8 @@
 # BackgroundMode subscribe implementation with ionic 2
 
+### Obs
+(in progress)
+
 ### How to install!
 Require `node`, `ionic` and `cordova`.
 ```
