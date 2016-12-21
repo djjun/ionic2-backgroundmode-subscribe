@@ -38,7 +38,7 @@ export class MyApp {
       hasActivate$.subscribe(
         () => {
           this.http
-            .get('https://sheetsu.com/apis/v1.0/d70e23a85323') // Get data 
+            .get(YOUR_API_URL) // Get data (use https://sheetsu.com/ if you want test)
             .map(response => response.json())
             .subscribe(
 
@@ -49,7 +49,7 @@ export class MyApp {
                                     LocalNotifications.schedule({
                                         id: 1,
                                         title: 'Local Notification Test',
-                                        text: 'Hi ' + response[0].nome,
+                                        text: 'Hi ' + response,
                                         sound: null
                                     });
 
