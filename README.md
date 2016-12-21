@@ -1,1 +1,2 @@
-# ionic2-backgroundmode-subscribe
+# BackgroundMode subscribe implementation with ionic 2
+
